@@ -1,0 +1,26 @@
+.ColorControls {
+  width: audio;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.ColorControls .button-content {
+  position: relative;
+}
+
+.ColorControls .color-button {
+  width: 30px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 100%;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+.ColorControls .label {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(59, 59, 59, 0.712);
+}
